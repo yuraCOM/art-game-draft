@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .temporary, .temporary button {
+        font-size: var(--fs35);
+    }
+    .logo img {
+        width: 40%;
+    }
+    .settings img {
+        width: 15%;
+    }
+    .main-window {
+        background-size: 100%;
+    }
+    .main-container{
+        margin-top: 100px;
+    }
+    .art-card {
+        width: 30%;
+    }
+    .header-container button{
+        margin-right: 5px;
+        padding: 10px 5px;
+    }
+
+    .newDivCardQuestion .img-card {
+        width: 30%;
+        padding: 10px;
+    }
+    .artist-quiz h3 {
+        padding: 5px;
+        font-size: var(--fs30);
+    }
+    .artist-quiz p {
+        font-size: var(--fs25);
+    }
+
+    .artist-quiz p {
+        font-size: 18px;
+        color: #3f51b5;
+        margin-bottom: 5px;
+    }
+    .artist-quiz img {
+        width: 100%;
+    }
+    .result-pic {
+        height: 35px;
+        width: 35px;
+    }
+    .newMainPictureQuest .picture {
+        margin: 5px 0;
+        width: 95%;
+
+    }
+    .newMainPictureQuest .picture-btn{
+        width: 80%;
+    }
+
+    .newMainPictureQuest .picture-btn p{
+        font-size: 22px;
+    }
+    .newDivFinishScore p{
+        font-size: 35px;
+        font-weight: bold;
+        border: 2px solid;
+        box-sizing: border-box;
+        padding: 5px;
+        background-color: #8bc34a;
+    }
+
+}

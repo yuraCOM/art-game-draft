@@ -1,0 +1,18 @@
+.all-authors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-authors p.author-btn{
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid;
+    margin: 5px;
+}
+.all-authors p.author-btn:hover{
+    background-color: cornflowerblue;
+}

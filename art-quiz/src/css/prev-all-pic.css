@@ -1,0 +1,38 @@
+.all-pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.prev-pic{
+    width: 24%;
+    margin: 5px 2px;
+}
+.artist-quiz .prev-pic img{
+    width: 100%;
+    box-sizing: border-box;
+    filter: grayscale(1);
+}
+.prev-pic img:hover{
+    border: 7px solid #0ef10e;
+}
+.btn-page-pics{
+    margin-top: 10px;
+}
+
+.artist-quiz .btn-page-pics p{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 5px;
+    border: 1px solid;
+}
+.artist-quiz .btn-page-pics p:hover{
+    background-color: #0aee0a;
+}
+
+.btn-search{
+    background-color: #0aee0a;
+}
+

@@ -1,0 +1,234 @@
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+.fade.in {
+    opacity: 1;
+}
+.modal {
+    background-color: #607d8b;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    /*overflow: hidden;*/
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.total-sum{
+    margin: 3px;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+.text-center {
+    text-align: center;
+}
+
+.modal-content {
+    margin: 20px auto;
+    position: relative;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border-radius: 6px;
+    outline: 0;
+    background-color: #607d8b;
+}
+.btn-close-modal-info{
+    visibility: hidden;
+    cursor: pointer;
+}
+.gameRules{
+    cursor: pointer;
+}
+.btn-close-modal-info:hover, .gameRules:hover{
+ background-color: darkorange;
+}
+
+.rules-info{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.infoPicsModal img{
+    width: 90%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.overlay-loader {
+    display: block;
+    margin: auto;
+    width: 85px;
+    height: 85px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.loader {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 85px;
+    height: 85px;
+    animation-name: rotateAnim;
+    -o-animation-name: rotateAnim;
+    /*-ms-animation-name: rotateAnim;*/
+    -webkit-animation-name: rotateAnim;
+    -moz-animation-name: rotateAnim;
+    animation-duration: 0.4s;
+    -o-animation-duration: 0.4s;
+    /*-ms-animation-duration: 0.4s;*/
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    /*-ms-animation-iteration-count: infinite;*/
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    /*-ms-animation-timing-function: linear;*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+.loader div {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid rgba(230,18,71,0.87);
+    position: absolute;
+    top: 2px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.loader div:nth-child(odd) {
+    border-top: none;
+    border-left: none;
+}
+.loader div:nth-child(even) {
+    border-bottom: none;
+    border-right: none;
+}
+.loader div:nth-child(2) {
+    border-width: 2px;
+    left: 0;
+    top: -3px;
+    width: 10px;
+    height: 10px;
+}
+.loader div:nth-child(3) {
+    border-width: 2px;
+    left: -1px;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+}
+.loader div:nth-child(4) {
+    border-width: 3px;
+    left: -1px;
+    top: -3px;
+    width: 20px;
+    height: 20px;
+}
+.loader div:nth-child(5) {
+    border-width: 3px;
+    left: -1px;
+    top: 3px;
+    width: 27px;
+    height: 27px;
+}
+.loader div:nth-child(6) {
+    border-width: 3px;
+    left: 0;
+    top: -3px;
+    width: 34px;
+    height: 34px;
+}
+.loader div:nth-child(7) {
+    border-width: 3px;
+    left: 0;
+    top: 5px;
+    width: 42px;
+    height: 42px;
+}
+
+
+@keyframes rotateAnim {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes rotateAnim {
+    from {
+        -o-transform: rotate(360deg);
+    }
+    to {
+        -o-transform: rotate(0deg);
+    }
+}
+
+@-ms-keyframes rotateAnim {
+    from {
+        -ms-transform: rotate(360deg);
+    }
+    to {
+        -ms-transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes rotateAnim {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes rotateAnim {
+    from {
+        -moz-transform: rotate(360deg);
+    }
+    to {
+        -moz-transform: rotate(0deg);
+    }
+}
+
+.pic-answer-round{
+    cursor: pointer;
+}
+
+.infoScores{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-score{
+    color: gold;
+}
+.infoScores p {
+    margin: 2px;
+    font-size: 30px;
+}
+.infoScoresAuthors{
+    text-align: right;
+}
