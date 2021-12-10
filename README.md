@@ -1,2 +1,2 @@
 # art game draft
-https://yuracom.github.io/art-game-draft/art-qui/src
+https://yuracom.github.io/art-game-draft/art-quiz/src
